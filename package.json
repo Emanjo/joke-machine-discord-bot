@@ -1,0 +1,20 @@
+{
+  "name": "joke-machine-bot",
+  "version": "1.0.0",
+  "description": "A discord api that sends jokes",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Emil André Johannessen",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "discord.js": "^11.4.2",
+    "dotenv": "^7.0.0"
+  }
+}
